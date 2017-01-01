@@ -8,7 +8,7 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 section {
@@ -71,6 +71,14 @@ p {
   }
 }
 
+.container-img{
+  
+  height: 60px;
+  width: 60px;
+  margin:0px;
+  padding-top: 5px;
+}
+
 /* footer */
 
 footer {
@@ -98,7 +106,7 @@ footer {
 }
 
 .welcome-page{
-	background-image: url("48.jpg");
+	background-image: asset-data-url("48.jpg");
 	height: 500px;
 
 }
