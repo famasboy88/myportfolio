@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   
 
+  get 'users/new'
+
   root 'static_pages#home'
   get  '/help',    to: 'static_pages#help'
   get  '/about',   to: 'static_pages#about'
@@ -9,6 +11,7 @@ Rails.application.routes.draw do
   get '/status', to: 'static_pages#status'
   get '/projects', to: 'static_pages#projects'
   get '/skillset', to: 'static_pages#skillset'
+  get  '/signup',  to: 'users#new'
 
  
 end
